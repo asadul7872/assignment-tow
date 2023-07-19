@@ -1,0 +1,160 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0 ;
+    margin: 0;
+}
+nav{
+    background:antiquewhite;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+.logo-container{
+
+    display: flex;
+    width: 50%;
+}
+
+.logo-container img{
+
+    width: 80px;
+    height: 40px;
+    object-fit:cover;
+    margin-right: 20px;
+}
+.logo-container h3{
+    font-size: 2.5rem;
+    font-weight: 700px;
+  
+}
+
+
+.navItemContainer{
+    /* padding: 0 100px; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navItemContainer a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    width: 500px;
+    color: #3C354F;
+}
+
+.navItemContainer .login-btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    
+}
+.fa-facebook {
+    /* background: #3B5998; */
+    color:#3B5998;
+    width: 30px;
+    height: 20px;
+    
+  }
+  
+  .fa-twitter {
+    
+    /* background: #55ACEE; */
+    color: #55ACEE;
+    width: 50px;
+    height: 24px;
+  }
+
+
+
+  /* banner style */
+
+
+
+  .banner{
+    padding: 0px 200px 0px 0px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    background: #FFF;
+    
+    
+  }
+.bannerContainer{
+    background-image: url('/images/Group\ 14.png');
+    width: 900px;
+    height: 700px;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 0 0 0 150px;
+   background-repeat:no-repeat ;
+}
+.bannerSubTitle{
+    margin-top: 145px;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.bannerTitle{
+font-size: 95px;
+font-weight: 800;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.bannerTitleDes{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-top: 17px;
+}
+.btnIn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: 0;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.btnGo{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: 0;
+}
+ 
+/* main style */
